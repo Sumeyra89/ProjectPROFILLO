@@ -1,4 +1,4 @@
-package profillo.pages;
+package com.profillo.pages;
 
 
 import org.openqa.selenium.By;
@@ -9,14 +9,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import profillo.utilities.BrowserUtils;
-import profillo.utilities.Driver;
+import com.profillo.utilities.BrowserUtils;
+import com.profillo.utilities.Driver;
 
 import java.util.List;
 
 public abstract class  BasePage {
 
-    @FindBy(css = "")
+    @FindBy
     public List<WebElement> menuOptions;
 
     @FindBy(css = "")
